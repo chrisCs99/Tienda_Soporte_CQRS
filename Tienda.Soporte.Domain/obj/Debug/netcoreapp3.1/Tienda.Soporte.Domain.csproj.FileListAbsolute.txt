@@ -1,0 +1,15 @@
+E:\NUR\SEMESTRE II - 2020\ING WEB\proyecto final\Tienda.Soporte.Domain\obj\Debug\netcoreapp3.1\Tienda.Soporte.Domain.AssemblyInfoInputs.cache
+E:\NUR\SEMESTRE II - 2020\ING WEB\proyecto final\Tienda.Soporte.Domain\obj\Debug\netcoreapp3.1\Tienda.Soporte.Domain.AssemblyInfo.cs
+E:\NUR\SEMESTRE II - 2020\ING WEB\proyecto final\Tienda.Soporte.Domain\obj\Debug\netcoreapp3.1\Tienda.Soporte.Domain.csproj.CoreCompileInputs.cache
+E:\NUR\SEMESTRE II - 2020\ING WEB\proyecto final\Tienda.Soporte.Domain\bin\Debug\netcoreapp3.1\Tienda.Soporte.Domain.deps.json
+E:\NUR\SEMESTRE II - 2020\ING WEB\proyecto final\Tienda.Soporte.Domain\bin\Debug\netcoreapp3.1\Tienda.Soporte.Domain.runtimeconfig.json
+E:\NUR\SEMESTRE II - 2020\ING WEB\proyecto final\Tienda.Soporte.Domain\bin\Debug\netcoreapp3.1\Tienda.Soporte.Domain.runtimeconfig.dev.json
+E:\NUR\SEMESTRE II - 2020\ING WEB\proyecto final\Tienda.Soporte.Domain\bin\Debug\netcoreapp3.1\Tienda.Soporte.Domain.dll
+E:\NUR\SEMESTRE II - 2020\ING WEB\proyecto final\Tienda.Soporte.Domain\bin\Debug\netcoreapp3.1\Tienda.Soporte.Domain.pdb
+E:\NUR\SEMESTRE II - 2020\ING WEB\proyecto final\Tienda.Soporte.Domain\bin\Debug\netcoreapp3.1\Tienda.Soporte.SharedKernel.dll
+E:\NUR\SEMESTRE II - 2020\ING WEB\proyecto final\Tienda.Soporte.Domain\bin\Debug\netcoreapp3.1\Tienda.Soporte.SharedKernel.pdb
+E:\NUR\SEMESTRE II - 2020\ING WEB\proyecto final\Tienda.Soporte.Domain\obj\Debug\netcoreapp3.1\Tienda.Soporte.Domain.csprojAssemblyReference.cache
+E:\NUR\SEMESTRE II - 2020\ING WEB\proyecto final\Tienda.Soporte.Domain\obj\Debug\netcoreapp3.1\Tienda.Soporte.Domain.csproj.CopyComplete
+E:\NUR\SEMESTRE II - 2020\ING WEB\proyecto final\Tienda.Soporte.Domain\obj\Debug\netcoreapp3.1\Tienda.Soporte.Domain.dll
+E:\NUR\SEMESTRE II - 2020\ING WEB\proyecto final\Tienda.Soporte.Domain\obj\Debug\netcoreapp3.1\Tienda.Soporte.Domain.pdb
+E:\NUR\SEMESTRE II - 2020\ING WEB\proyecto final\Tienda.Soporte.Domain\obj\Debug\netcoreapp3.1\Tienda.Soporte.Domain.genruntimeconfig.cache

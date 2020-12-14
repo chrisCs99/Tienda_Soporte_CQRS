@@ -1,0 +1,687 @@
+{
+	"info": {
+		"_postman_id": "5996fa92-56fa-485f-a629-2ebc0b787c02",
+		"name": "DDD_TIENDA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "SOPORTE",
+			"item": [
+				{
+					"name": "CLIENT",
+					"item": [
+						{
+							"name": "INSERT_CLIENT",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"Name\": \"Jose Carlos\",\r\n    \"Lastname\": \"Gutierrez\",\r\n    \"Phone\": \"76311084\",\r\n    \"Email\": \"joseca@example.com\",\r\n    \"Address\": \"Av. Paragua\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44350/api/Client",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44350",
+									"path": [
+										"api",
+										"Client"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_CLIENTS",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:44350/api/Client",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44350",
+									"path": [
+										"api",
+										"Client"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_CLIENT",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:44350/api/Client/36860588-ea64-46c5-86d8-00e0e3aef5ff",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44350",
+									"path": [
+										"api",
+										"Client",
+										"36860588-ea64-46c5-86d8-00e0e3aef5ff"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "PRODUCT",
+					"item": [
+						{
+							"name": "INSERT_PRODUCT",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"ProductBrand\": \"Samsung\",\r\n    \"ProductName\": \"Television 42'\",\r\n    \"ProductPrice\": 3999.99\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44350/api/Product",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44350",
+									"path": [
+										"api",
+										"Product"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRODUCTS",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:44350/api/Product",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44350",
+									"path": [
+										"api",
+										"Product"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PRODUCT",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:44350/api/Product/ff89d8d2-aba5-4421-a9d6-5c359d603dbe",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44350",
+									"path": [
+										"api",
+										"Product",
+										"ff89d8d2-aba5-4421-a9d6-5c359d603dbe"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "SERVICE_ORDER",
+					"item": [
+						{
+							"name": "INSERT_SERVICE_ORDER",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"ServiceType\": 0,\r\n    \"Price\": 500.00,\r\n    \"ServiceOrder\": {\r\n        \"Client\": {\r\n            \"Id\": \"e039535d-dc3f-4fc8-8204-9c1dbd915730\" \r\n        }\r\n    },\r\n    \"Description\": \"Instalación de television\",\r\n    \"AlternativeAddress\": \"Av. Banzer c/Los Ambaibos #2236\",\r\n    \"Products\": [\r\n        {\r\n            \"Id\": \"5c2c9f73-d9a2-4378-94ce-c02c8692e098\"\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44350/api/ServiceOrder",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44350",
+									"path": [
+										"api",
+										"ServiceOrder"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "CANCEL_SERVICE_ORDER",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"Id\": \"cb07d9c8-0861-4e1c-926d-4becca4de18a\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44350/api/ServiceOrder/cancelServiceOrder",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44350",
+									"path": [
+										"api",
+										"ServiceOrder",
+										"cancelServiceOrder"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_SERVICE_ORDERS",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:44350/api/ServiceOrder",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44350",
+									"path": [
+										"api",
+										"ServiceOrder"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_SERVICE_ORDER",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:44350/api/ServiceOrder/cb07d9c8-0861-4e1c-926d-4becca4de18a",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44350",
+									"path": [
+										"api",
+										"ServiceOrder",
+										"cb07d9c8-0861-4e1c-926d-4becca4de18a"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "APPOINTMENT",
+					"item": [
+						{
+							"name": "INSERT_APPOINTMENT",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"VisitDate\": \"2020-11-15\",\r\n    \"ServiceOrder\": {\r\n        \"Id\": \"30d3d53b-c767-49b5-8ef6-28202d80f3f8\"\r\n    },\r\n    \"Technicians\": [\r\n        {\r\n            \"TechnicianId\": \"4e2e9eef-cb97-43a1-a3b5-ce444643388a\"\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44350/api/Appointment",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44350",
+									"path": [
+										"api",
+										"Appointment"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "CANCEL_APPOINTMENT",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"Id\": \"21683832-27c3-4485-bb9a-39ff23d78ef7\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44350/api/Appointment/cancelAppointment",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44350",
+									"path": [
+										"api",
+										"Appointment",
+										"cancelAppointment"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_APPOINTMENTS",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:44350/api/Appointment",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44350",
+									"path": [
+										"api",
+										"Appointment"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_APPOINTMENTS_BY_ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:44350/api/Appointment/f117c05a-54f7-45ce-a078-6f57ac11aa2a",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44350",
+									"path": [
+										"api",
+										"Appointment",
+										"f117c05a-54f7-45ce-a078-6f57ac11aa2a"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "TECHNICIAN",
+					"item": [
+						{
+							"name": "INSERT_TECHNICIAN",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"Name\": \"Eva\",\r\n    \"Lastname\": \"Copa\",\r\n    \"CI\": \"39731123123\",\r\n    \"Phone\": \"758112321\",\r\n    \"Email\": \"novamospermitir@elimperio.com\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44350/api/Technician",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44350",
+									"path": [
+										"api",
+										"Technician"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_TECHNICIANS",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:44350/api/Technician",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44350",
+									"path": [
+										"api",
+										"Technician"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_TECHNICIAN",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:44350/api/Technician/6fcc5075-2d56-4a38-9e20-e109d732b6e1",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44350",
+									"path": [
+										"api",
+										"Technician",
+										"6fcc5075-2d56-4a38-9e20-e109d732b6e1"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "JOB_FORM",
+					"item": [
+						{
+							"name": "INSERT_JOB_FORM",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"Detail\": \"instalación de Televisión\",\r\n    \"Date\": \"2020-11-17\",\r\n    \"Appointment\": {\r\n        \"AppointmentId\": \"21683832-27c3-4485-bb9a-39ff23d78ef7\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44350/api/JobForm",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44350",
+									"path": [
+										"api",
+										"JobForm"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_JOB_FORMS",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:44350/api/JobForm",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44350",
+									"path": [
+										"api",
+										"JobForm"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_JOB_FORM",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:44350/api/JobForm/da3307fe-4135-4ede-aefd-5395e20ed9d1",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44350",
+									"path": [
+										"api",
+										"JobForm",
+										"da3307fe-4135-4ede-aefd-5395e20ed9d1"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "DISTRIBUCION",
+			"item": [
+				{
+					"name": "ORDEN ENTREGA",
+					"item": [
+						{
+							"name": "GET_ORDEN_ENTREGAS",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:44376/api/OrdenEntrega",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44376",
+									"path": [
+										"api",
+										"OrdenEntrega"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "INSERT_ORDEN_ENTREGA",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"NombreCliente\": \"Leonardo\",\r\n    \"Telefono\": \"7654321\",\r\n    \"LatitudDestino\": -17.78629,\r\n    \"LongitudDestino\": -63.18117,\r\n    \"Items\": [\r\n        {\r\n            \"Codigo\": \"8391-asd12-asd1231\",\r\n            \"Descripcion\": \"Lavadora LG 8Kg enjuagado rápido\"\r\n        },\r\n        {\r\n            \"Codigo\": \"6752-asd12-asd1231\",\r\n            \"Descripcion\": \"Lavadora Samsung 6Kg enjuagado rápido\"\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44376/api/OrdenEntrega",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44376",
+									"path": [
+										"api",
+										"OrdenEntrega"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_ORDEN_ENTREGA",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:44376/api/OrdenEntrega/5a9f543b-3d74-4cd0-8235-17e4bed5ba19",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44376",
+									"path": [
+										"api",
+										"OrdenEntrega",
+										"5a9f543b-3d74-4cd0-8235-17e4bed5ba19"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "CONSOLIDAR_ORDEN_ENTREGA",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"OrdenEntrega\": {\r\n        \"Id\": \"5A9F543B-3D74-4CD0-8235-17E4BED5BA19\"\r\n    },\r\n    \"FechaProgramado\": \"2020-12-15\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44376/api/OrdenEntrega/consolidarOrdenEntrega",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44376",
+									"path": [
+										"api",
+										"OrdenEntrega",
+										"consolidarOrdenEntrega"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "FINALIZAR_ORDEN_ENTREGA",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"Id\": \"5A9F543B-3D74-4CD0-8235-17E4BED5BA19\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:44376/api/OrdenEntrega/finalizarOrdenEntrega",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "44376",
+									"path": [
+										"api",
+										"OrdenEntrega",
+										"finalizarOrdenEntrega"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
