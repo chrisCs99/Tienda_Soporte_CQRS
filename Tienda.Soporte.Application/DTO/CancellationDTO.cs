@@ -9,9 +9,5 @@ namespace Tienda.Soporte.Infraestructura.DTO
     {
         public Guid Id { get; set; }
 
-        public CancellationDTO(Guid id)
-        {
-            Id = id;
-        }
     }
 }
