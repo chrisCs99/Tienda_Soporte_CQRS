@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\NUR\\SEMESTRE II - 2020\\ING WEB\\proyecto final\\Tienda.Soporte.SharedKernel\\Tienda.Soporte.SharedKernel.csproj": {}
+    "E:\\NUR\\SEMESTRE II - 2020\\ING WEB\\PrimerParcial-CCS\\ads\\Tienda_Soporte_CQRS\\Tienda.Soporte.SharedKernel\\Tienda.Soporte.SharedKernel.csproj": {}
   },
   "projects": {
-    "E:\\NUR\\SEMESTRE II - 2020\\ING WEB\\proyecto final\\Tienda.Soporte.SharedKernel\\Tienda.Soporte.SharedKernel.csproj": {
+    "E:\\NUR\\SEMESTRE II - 2020\\ING WEB\\PrimerParcial-CCS\\ads\\Tienda_Soporte_CQRS\\Tienda.Soporte.SharedKernel\\Tienda.Soporte.SharedKernel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\NUR\\SEMESTRE II - 2020\\ING WEB\\proyecto final\\Tienda.Soporte.SharedKernel\\Tienda.Soporte.SharedKernel.csproj",
+        "projectUniqueName": "E:\\NUR\\SEMESTRE II - 2020\\ING WEB\\PrimerParcial-CCS\\ads\\Tienda_Soporte_CQRS\\Tienda.Soporte.SharedKernel\\Tienda.Soporte.SharedKernel.csproj",
         "projectName": "Tienda.Soporte.SharedKernel",
-        "projectPath": "E:\\NUR\\SEMESTRE II - 2020\\ING WEB\\proyecto final\\Tienda.Soporte.SharedKernel\\Tienda.Soporte.SharedKernel.csproj",
+        "projectPath": "E:\\NUR\\SEMESTRE II - 2020\\ING WEB\\PrimerParcial-CCS\\ads\\Tienda_Soporte_CQRS\\Tienda.Soporte.SharedKernel\\Tienda.Soporte.SharedKernel.csproj",
         "packagesPath": "C:\\Users\\chcue\\.nuget\\packages\\",
-        "outputPath": "E:\\NUR\\SEMESTRE II - 2020\\ING WEB\\proyecto final\\Tienda.Soporte.SharedKernel\\obj\\",
+        "outputPath": "E:\\NUR\\SEMESTRE II - 2020\\ING WEB\\PrimerParcial-CCS\\ads\\Tienda_Soporte_CQRS\\Tienda.Soporte.SharedKernel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

@@ -12,6 +12,8 @@ namespace Tienda.Soporte.Domain.Persistence.Repository
 
         Task InsertDetail(ServiceOrderDetail serviceOrderDetails);
 
+        Task<ServiceOrderDetail> GetDetail(Guid guid);
+
         Task InsertProducts(ServiceOrder serviceOrder, Product product);
 
         Task<List<ServiceOrderHasProducts>> GetServiceOrderById(Guid serviceOrderId);

@@ -17,3 +17,22 @@ E:\NUR\SEMESTRE II - 2020\ING WEB\proyecto final\Tienda.Soporte.Infreastructure\
 E:\NUR\SEMESTRE II - 2020\ING WEB\proyecto final\Tienda.Soporte.Infreastructure\obj\Debug\netcoreapp3.1\Tienda.Soporte.Infreastructure.dll
 E:\NUR\SEMESTRE II - 2020\ING WEB\proyecto final\Tienda.Soporte.Infreastructure\obj\Debug\netcoreapp3.1\Tienda.Soporte.Infreastructure.pdb
 E:\NUR\SEMESTRE II - 2020\ING WEB\proyecto final\Tienda.Soporte.Infreastructure\obj\Debug\netcoreapp3.1\Tienda.Soporte.Infreastructure.genruntimeconfig.cache
+E:\NUR\SEMESTRE II - 2020\ING WEB\PrimerParcial-CCS\ads\Tienda_Soporte_CQRS\Tienda.Soporte.Infreastructure\bin\Debug\netcoreapp3.1\Tienda.Soporte.Infreastructure.deps.json
+E:\NUR\SEMESTRE II - 2020\ING WEB\PrimerParcial-CCS\ads\Tienda_Soporte_CQRS\Tienda.Soporte.Infreastructure\bin\Debug\netcoreapp3.1\Tienda.Soporte.Infreastructure.runtimeconfig.json
+E:\NUR\SEMESTRE II - 2020\ING WEB\PrimerParcial-CCS\ads\Tienda_Soporte_CQRS\Tienda.Soporte.Infreastructure\bin\Debug\netcoreapp3.1\Tienda.Soporte.Infreastructure.runtimeconfig.dev.json
+E:\NUR\SEMESTRE II - 2020\ING WEB\PrimerParcial-CCS\ads\Tienda_Soporte_CQRS\Tienda.Soporte.Infreastructure\bin\Debug\netcoreapp3.1\Tienda.Soporte.Infreastructure.dll
+E:\NUR\SEMESTRE II - 2020\ING WEB\PrimerParcial-CCS\ads\Tienda_Soporte_CQRS\Tienda.Soporte.Infreastructure\bin\Debug\netcoreapp3.1\Tienda.Soporte.Infreastructure.pdb
+E:\NUR\SEMESTRE II - 2020\ING WEB\PrimerParcial-CCS\ads\Tienda_Soporte_CQRS\Tienda.Soporte.Infreastructure\bin\Debug\netcoreapp3.1\Tienda.Soporte.Application.dll
+E:\NUR\SEMESTRE II - 2020\ING WEB\PrimerParcial-CCS\ads\Tienda_Soporte_CQRS\Tienda.Soporte.Infreastructure\bin\Debug\netcoreapp3.1\Tienda.Soporte.Domain.dll
+E:\NUR\SEMESTRE II - 2020\ING WEB\PrimerParcial-CCS\ads\Tienda_Soporte_CQRS\Tienda.Soporte.Infreastructure\bin\Debug\netcoreapp3.1\Tienda.Soporte.SharedKernel.dll
+E:\NUR\SEMESTRE II - 2020\ING WEB\PrimerParcial-CCS\ads\Tienda_Soporte_CQRS\Tienda.Soporte.Infreastructure\bin\Debug\netcoreapp3.1\Tienda.Soporte.Application.pdb
+E:\NUR\SEMESTRE II - 2020\ING WEB\PrimerParcial-CCS\ads\Tienda_Soporte_CQRS\Tienda.Soporte.Infreastructure\bin\Debug\netcoreapp3.1\Tienda.Soporte.Domain.pdb
+E:\NUR\SEMESTRE II - 2020\ING WEB\PrimerParcial-CCS\ads\Tienda_Soporte_CQRS\Tienda.Soporte.Infreastructure\bin\Debug\netcoreapp3.1\Tienda.Soporte.SharedKernel.pdb
+E:\NUR\SEMESTRE II - 2020\ING WEB\PrimerParcial-CCS\ads\Tienda_Soporte_CQRS\Tienda.Soporte.Infreastructure\obj\Debug\netcoreapp3.1\Tienda.Soporte.Infreastructure.csprojAssemblyReference.cache
+E:\NUR\SEMESTRE II - 2020\ING WEB\PrimerParcial-CCS\ads\Tienda_Soporte_CQRS\Tienda.Soporte.Infreastructure\obj\Debug\netcoreapp3.1\Tienda.Soporte.Infreastructure.AssemblyInfoInputs.cache
+E:\NUR\SEMESTRE II - 2020\ING WEB\PrimerParcial-CCS\ads\Tienda_Soporte_CQRS\Tienda.Soporte.Infreastructure\obj\Debug\netcoreapp3.1\Tienda.Soporte.Infreastructure.AssemblyInfo.cs
+E:\NUR\SEMESTRE II - 2020\ING WEB\PrimerParcial-CCS\ads\Tienda_Soporte_CQRS\Tienda.Soporte.Infreastructure\obj\Debug\netcoreapp3.1\Tienda.Soporte.Infreastructure.csproj.CoreCompileInputs.cache
+E:\NUR\SEMESTRE II - 2020\ING WEB\PrimerParcial-CCS\ads\Tienda_Soporte_CQRS\Tienda.Soporte.Infreastructure\obj\Debug\netcoreapp3.1\Tienda.Soporte.Infreastructure.csproj.CopyComplete
+E:\NUR\SEMESTRE II - 2020\ING WEB\PrimerParcial-CCS\ads\Tienda_Soporte_CQRS\Tienda.Soporte.Infreastructure\obj\Debug\netcoreapp3.1\Tienda.Soporte.Infreastructure.dll
+E:\NUR\SEMESTRE II - 2020\ING WEB\PrimerParcial-CCS\ads\Tienda_Soporte_CQRS\Tienda.Soporte.Infreastructure\obj\Debug\netcoreapp3.1\Tienda.Soporte.Infreastructure.pdb
+E:\NUR\SEMESTRE II - 2020\ING WEB\PrimerParcial-CCS\ads\Tienda_Soporte_CQRS\Tienda.Soporte.Infreastructure\obj\Debug\netcoreapp3.1\Tienda.Soporte.Infreastructure.genruntimeconfig.cache

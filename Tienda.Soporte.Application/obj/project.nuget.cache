@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wFMdAMiOiaTSnygBLYwbRaeGVNns6URuM5PSJKp6+OI1YtPI6fLaKD5l6ALFdXgFp13ckT8ILPLhB5p1OEYDeg==",
+  "dgSpecHash": "A1NGSxgftBUNhEoy67bAlz5NeNVtYfq018OgixZu+jqfbqCl6BJxaUcxTL18N91+c+LjCx1orBBUonMVv7yD+A==",
   "success": true,
-  "projectFilePath": "E:\\NUR\\SEMESTRE II - 2020\\ING WEB\\proyecto final\\Tienda.Soporte.Application\\Tienda.Soporte.Application.csproj",
+  "projectFilePath": "E:\\NUR\\SEMESTRE II - 2020\\ING WEB\\PrimerParcial-CCS\\ads\\Tienda_Soporte_CQRS\\Tienda.Soporte.Application\\Tienda.Soporte.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chcue\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\chcue\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",

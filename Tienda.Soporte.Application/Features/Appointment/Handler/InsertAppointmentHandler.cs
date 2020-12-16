@@ -26,13 +26,14 @@ namespace Tienda.Soporte.Application.Features.Appointment.Handler
         public async Task<VoidResult> Handle(InsertAppointmentCommand request, CancellationToken cancellationToken)
         {
             Domain.Model.Soporte.Appointment appointment = new Domain.Model.Soporte.Appointment(
-                request.appointmentDTO.VisitDate, new Domain.Model.Soporte.ServiceOrder(request.appointmentDTO.ServiceOrder.ServiceOrderId));
-            await _appointmentRepository.Insert(appointment);
+                request.appointmentDTO.VisitDate);
+            await _appointmentRepository.Insert(appointment, request.appointmentDTO.ServiceOrder.Id);
+            await _unitOfWork.Commit();
             foreach (TechnicianDTO technician in request.appointmentDTO.Technicians)
             {
                 await _appointmentRepository.InsertTechniciansInAppointment(appointment, new Domain.Model.Soporte.Technician(technician.TechnicianId));
-            }
                 await _unitOfWork.Commit();
+            }
             return new VoidResult();
         }
     }

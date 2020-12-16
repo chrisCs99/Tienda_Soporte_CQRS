@@ -28,6 +28,7 @@ namespace Tienda.Soporte.Infraestructura.Persistence.Repository
             List<AppointmentHasTechnician> appointmentList = await _context.AppointmentHasTechnicians
                 .Where(x => x.Appointment.AppointmentId == appointmentId)
                 .Include(x => x.Appointment)
+                .Include(x => x.Appointment.ServiceOrder)
                 .Include(x => x.Technician)
                 .ToListAsync();
             return appointmentList;
@@ -37,6 +38,7 @@ namespace Tienda.Soporte.Infraestructura.Persistence.Repository
         {
             List<AppointmentHasTechnician> appointmentList = await _context.AppointmentHasTechnicians
                 .Include(x => x.Appointment)
+                .Include(x => x.Appointment.ServiceOrder)
                 .Include(x => x.Technician)
                 .ToListAsync();
             return appointmentList;
@@ -46,17 +48,17 @@ namespace Tienda.Soporte.Infraestructura.Persistence.Repository
         {
             Technician objTechnician = await _context.Technicians.Where(x => x.TechnicianId == technician.TechnicianId)
                 .FirstOrDefaultAsync();
-            Appointment objAppointment = await _context.Appointments.Where(x => x.AppointmentId == appointment.AppointmentId)
-                .FirstOrDefaultAsync();
+            //Appointment objAppointment = await _context.Appointments.Where(x => x.AppointmentId == appointment)
+            //    .FirstOrDefaultAsync();
             // Appointment appointment = await _context.Appointments.LastOrDefaultAsync();
-            AppointmentHasTechnician appointmentHasTechnician = new AppointmentHasTechnician(objAppointment, objTechnician);
+            AppointmentHasTechnician appointmentHasTechnician = new AppointmentHasTechnician(appointment, objTechnician);
             await _context.AppointmentHasTechnicians.AddAsync(appointmentHasTechnician);
         }
 
-        public async Task<Appointment> Insert(Appointment appointment)
+        public async Task<Appointment> Insert(Appointment appointment, Guid orderService)
         {
             ServiceOrder objServiceOrder = await _context.ServiceOrders
-                .Where(x => x.ServiceOrderId == appointment.ServiceOrder.ServiceOrderId).FirstOrDefaultAsync();
+                .Where(x => x.ServiceOrderId == orderService).FirstOrDefaultAsync();
             Appointment objAppointment = new Appointment(appointment.VisitDate, objServiceOrder);
             await _context.Appointments.AddAsync(objAppointment);
             return objAppointment;

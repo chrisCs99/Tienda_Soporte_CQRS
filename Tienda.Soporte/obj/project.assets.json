@@ -7483,11 +7483,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\NUR\\SEMESTRE II - 2020\\ING WEB\\proyecto final\\Tienda.Soporte\\Tienda.Soporte.csproj",
+      "projectUniqueName": "E:\\NUR\\SEMESTRE II - 2020\\ING WEB\\PrimerParcial-CCS\\ads\\Tienda_Soporte_CQRS\\Tienda.Soporte\\Tienda.Soporte.csproj",
       "projectName": "Tienda.Soporte",
-      "projectPath": "E:\\NUR\\SEMESTRE II - 2020\\ING WEB\\proyecto final\\Tienda.Soporte\\Tienda.Soporte.csproj",
+      "projectPath": "E:\\NUR\\SEMESTRE II - 2020\\ING WEB\\PrimerParcial-CCS\\ads\\Tienda_Soporte_CQRS\\Tienda.Soporte\\Tienda.Soporte.csproj",
       "packagesPath": "C:\\Users\\chcue\\.nuget\\packages\\",
-      "outputPath": "E:\\NUR\\SEMESTRE II - 2020\\ING WEB\\proyecto final\\Tienda.Soporte\\obj\\",
+      "outputPath": "E:\\NUR\\SEMESTRE II - 2020\\ING WEB\\PrimerParcial-CCS\\ads\\Tienda_Soporte_CQRS\\Tienda.Soporte\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -7508,8 +7508,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "E:\\NUR\\SEMESTRE II - 2020\\ING WEB\\proyecto final\\Tienda.Soporte.Infreastructure\\Tienda.Soporte.Infreastructure.csproj": {
-              "projectPath": "E:\\NUR\\SEMESTRE II - 2020\\ING WEB\\proyecto final\\Tienda.Soporte.Infreastructure\\Tienda.Soporte.Infreastructure.csproj"
+            "E:\\NUR\\SEMESTRE II - 2020\\ING WEB\\PrimerParcial-CCS\\ads\\Tienda_Soporte_CQRS\\Tienda.Soporte.Infreastructure\\Tienda.Soporte.Infreastructure.csproj": {
+              "projectPath": "E:\\NUR\\SEMESTRE II - 2020\\ING WEB\\PrimerParcial-CCS\\ads\\Tienda_Soporte_CQRS\\Tienda.Soporte.Infreastructure\\Tienda.Soporte.Infreastructure.csproj"
             }
           }
         }

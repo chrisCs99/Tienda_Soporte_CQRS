@@ -21,6 +21,13 @@ namespace Tienda.Soporte.Domain.Model.Soporte
             ServiceOrder = serviceOrder;
         }
 
+        public Appointment(DateTime visitDate)
+        {
+            AppointmentId = Guid.NewGuid();
+            Status = AppointmentStatus.Active;
+            VisitDate = visitDate;
+        }
+
         public Appointment(Guid appointmentId)
         {
             AppointmentId = appointmentId;

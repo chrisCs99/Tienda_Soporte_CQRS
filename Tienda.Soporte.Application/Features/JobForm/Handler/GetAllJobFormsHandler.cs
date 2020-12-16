@@ -27,11 +27,13 @@ namespace Tienda.Soporte.Application.Features.JobForm.Handler
             List<JobFormDTO> jobFormDTOs = new List<JobFormDTO>();
             foreach (var item in jobForms)
             {
+                ServiceOrderDTO serviceOrderDTO = new ServiceOrderDTO(item.Appointment.ServiceOrder.ServiceOrderId, item.Appointment.ServiceOrder.CreationDate,
+                        item.Appointment.ServiceOrder.Status);
                 AppointmentDTO appointmentDTO = new AppointmentDTO(
                     item.Appointment.AppointmentId,
                     item.Appointment.Status,
                     item.Appointment.VisitDate,
-                    item.Appointment.ServiceOrder
+                    serviceOrderDTO
                     );
                 jobFormDTOs.Add(
                     new JobFormDTO(

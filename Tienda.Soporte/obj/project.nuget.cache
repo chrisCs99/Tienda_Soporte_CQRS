@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C69B0kPq5VbP4+VavTjZ6iP4h+oQho/LIvz4E+b95Lp5pa7fcEOq7/KN3Vv1VVsDHsDAATSL9E4ge6peFDzFTw==",
+  "dgSpecHash": "Hlj6DCJF45tevEl7B7MfnzeaF0LX7eyREE95dvG18iFRmSRUWoQTsZBOTqHrrWifYm/vfIymI63+57OHakH5+g==",
   "success": true,
-  "projectFilePath": "E:\\NUR\\SEMESTRE II - 2020\\ING WEB\\proyecto final\\Tienda.Soporte\\Tienda.Soporte.csproj",
+  "projectFilePath": "E:\\NUR\\SEMESTRE II - 2020\\ING WEB\\PrimerParcial-CCS\\ads\\Tienda_Soporte_CQRS\\Tienda.Soporte\\Tienda.Soporte.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chcue\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\chcue\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

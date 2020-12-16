@@ -14,7 +14,7 @@ namespace Tienda.Soporte.Domain.Persistence.Repository
 
         Task InsertTechniciansInAppointment(Appointment appointment, Technician technician);
 
-        Task<Appointment> Insert(Appointment appointment);
+        Task<Appointment> Insert(Appointment appointment, Guid guid);
 
         Task<Appointment> Update(Guid appointmentId, Appointment appointment);
 

@@ -24,5 +24,12 @@ namespace Tienda.Soporte.Infraestructura.DTO
             Client = client;
             Status = status;
         }
+
+        public ServiceOrderDTO(Guid id, DateTime creationDate, ServiceOrderStatus status)
+        {
+            Id = id;
+            CreationDate = creationDate;
+            Status = status;
+        }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZUmCVsqZj/3kH18Bkvw2BofNe9hL+5EfirJa+0WAV0XWdFBSISqmSm/SiyQD6NB4uXwAUfApiTyLI80DfioS+w==",
+  "dgSpecHash": "GfJLuSePFk6EToV0uYA+9y8ViGnMo8FblgsymruCQIPSMk9+3E6DDuEIsEbShINJvKno0ZUO7DZAy+N1nzKsAw==",
   "success": true,
-  "projectFilePath": "E:\\NUR\\SEMESTRE II - 2020\\ING WEB\\proyecto final\\Tienda.Soporte.SharedKernel\\Tienda.Soporte.SharedKernel.csproj",
+  "projectFilePath": "E:\\NUR\\SEMESTRE II - 2020\\ING WEB\\PrimerParcial-CCS\\ads\\Tienda_Soporte_CQRS\\Tienda.Soporte.SharedKernel\\Tienda.Soporte.SharedKernel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chcue\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\chcue\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",

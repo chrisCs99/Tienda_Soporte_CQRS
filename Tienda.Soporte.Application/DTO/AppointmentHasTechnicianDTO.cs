@@ -17,5 +17,9 @@ namespace Tienda.Soporte.Application.DTO
             Appointment = appointment;
             Technician = technician;
         }
+
+        public AppointmentHasTechnicianDTO()
+        {
+        }
     }
 }

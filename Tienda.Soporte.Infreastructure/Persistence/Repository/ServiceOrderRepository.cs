@@ -24,11 +24,18 @@ namespace Tienda.Soporte.Infraestructura.Persistence.Repository
             obj.CancelServiceOrder();
         }
 
+        public async Task<ServiceOrderDetail> GetDetail(Guid guid)
+        {
+            ServiceOrderDetail orderDetail = await _context.ServiceOrdersDetails.Where(x => x.ServiceOrder.ServiceOrderId == guid).FirstOrDefaultAsync();
+            return orderDetail;
+        }
+
         public async Task<List<ServiceOrderHasProducts>> GetServiceOrderById(Guid serviceOrderId)
         {
             List<ServiceOrderHasProducts> obj = await _context.ServiceOrderHasProducts
                 .Where(x => x.ServiceOrder.ServiceOrderId == serviceOrderId)
                 .Include(x => x.ServiceOrder)
+                .Include(x => x.ServiceOrder.Client)
                 .Include(x => x.Product)
                 .ToListAsync();
             return obj;
